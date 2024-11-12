@@ -46,8 +46,10 @@ header img {
 	text-shadow: 2px 2px 2px #800000;
 }
 /* the styles for the main content */
-main {
-	clear: left;
+section {
+	width:525px;
+	float:right;
+	
 }
 main {
 	padding: 0 30px;
@@ -99,7 +101,9 @@ article h3 {
 }
 
 /* the styles for the aside */
-
+aside {
+	width:215px;
+	float:right;
 aside h3 {
 	font-size: 105%;
 	padding-bottom: .25em;
@@ -111,6 +115,7 @@ aside img {
 /* the styles for the footer */
 footer {
 	background-color: #931420;
+	clear:both;
 }
 footer p {
 	text-align: center;
